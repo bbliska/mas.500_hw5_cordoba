@@ -1,6 +1,8 @@
 Cordova Example - Get To Know : Global Voices
 =============================================
 
+Modified some of the CSS styling... nothing exciting. 
+@bbliska 12042014
 Small example Cordova applicaton for the MAS.500 course.  This is built with Cordova,
 backbone.js and jquery-mobile.
 
