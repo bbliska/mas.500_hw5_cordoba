@@ -10,6 +10,8 @@
 	<string>GetToKnow</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>CF137CB825F69ADAA5C0D9CE77F0848934E3C67D</key>
+		<string>https://github.com/bbliska/mas.500_hw_cordoba</string>
 		<key>F20D852FFDA41E527870B80CD004254B951E43A9</key>
 		<string>https://github.com/rahulbot/GV-GetToKnow-Cordova.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>platforms/ios/GetToKnow.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F20D852FFDA41E527870B80CD004254B951E43A9</key>
+		<key>CF137CB825F69ADAA5C0D9CE77F0848934E3C67D</key>
 		<string>../../../..</string>
+		<key>F20D852FFDA41E527870B80CD004254B951E43A9</key>
+		<string>../../../../../GV-GetToKnow-Cordova</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/rahulbot/GV-GetToKnow-Cordova.git</string>
+	<string>https://github.com/bbliska/mas.500_hw_cordoba</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F20D852FFDA41E527870B80CD004254B951E43A9</string>
+	<string>CF137CB825F69ADAA5C0D9CE77F0848934E3C67D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>F20D852FFDA41E527870B80CD004254B951E43A9</string>
 			<key>IDESourceControlWCCName</key>
 			<string>GV-GetToKnow-Cordova</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF137CB825F69ADAA5C0D9CE77F0848934E3C67D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mas.500_hw_cordoba</string>
 		</dict>
 	</array>
 </dict>

@@ -43,7 +43,25 @@ var app = {
         document.addEventListener('pause', this.onPause, false);
         document.addEventListener('resume', this.onResume, false);
     },
-
+    //function to check network connection using plugin
+    
+    function checkConnection() {
+        var networkState = navigator.connection.type;
+        var states = {};
+        states[Connection.UNKNOWN]  = 'Unknown connection';
+        states[Connection.ETHERNET] = 'Ethernet connection';
+        states[Connection.WIFI]     = 'WiFi connection';
+        states[Connection.CELL_2G]  = 'Cell 2G connection';
+        states[Connection.CELL_3G]  = 'Cell 3G connection';
+        states[Connection.CELL_4G]  = 'Cell 4G connection';
+        states[Connection.CELL]     = 'Cell generic connection';
+        states[Connection.NONE]     = 'No network connection';
+        
+        if (networkState==Connection.NONE){
+            alert("No network connection found.");
+        }
+    }
+    
     
     /**
      * deviceready Event Handler
@@ -52,6 +70,8 @@ var app = {
      * (remember 'this' is the event, not the app object )
      */
     onDeviceReady: function() {
+        //check connection
+        checkConnection();
         app.loadData();
         console.log("App: created collection ("+app.countryCollection.length+")");
         app.router = new AppRouter();
@@ -74,6 +94,7 @@ var app = {
      */
      onResume: function() {
         console.log("App: resuming")
+        checkConnection();
      }
 
 };
